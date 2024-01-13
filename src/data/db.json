@@ -1,0 +1,97 @@
+{
+  "holidays": [
+    {
+      "id": 1,
+      "title": "Summer Vacation",
+      "startDate": "2024-07-01",
+      "duration": 14,
+      "price": 1200,
+      "freeSlots": 50,
+      "location": {
+        "id": 1,
+        "street": "Sunny Street",
+        "number": "123",
+        "city": "Beachville",
+        "country": "Sunland"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Winter Retreat",
+      "startDate": "2024-12-01",
+      "duration": 10,
+      "price": 1000,
+      "freeSlots": 30,
+      "location": {
+        "id": 2,
+        "street": "Snowy Lane",
+        "number": "456",
+        "city": "Mountainville",
+        "country": "Frostland"
+      }
+    },
+    {
+      "id": 3,
+      "location": 1,
+      "title": "123",
+      "startDate": "2024-01-03",
+      "duration": 4,
+      "price": "2",
+      "freeSlots": 2
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "street": "Sunny Street",
+      "number": "123",
+      "city": "Beachville",
+      "country": "Sunland"
+    },
+    {
+      "id": 2,
+      "street": "Snowy Lane",
+      "number": "456",
+      "city": "Mountainville",
+      "country": "Frostland"
+    }
+  ],
+  "reservations": [
+    {
+      "id": 1,
+      "contactName": "John Doe",
+      "phoneNumber": "123456789",
+      "holiday": {
+        "id": 1,
+        "title": "Summer Vacation"
+      }
+    },
+    {
+      "id": 2,
+      "contactName": "Jane Doe",
+      "phoneNumber": "987654321",
+      "holiday": {
+        "id": 2,
+        "title": "Winter Retreat"
+      }
+    },
+    {
+      "id": 3,
+      "contactName": "Alice Johnson",
+      "phoneNumber": "555888999",
+      "holiday": {
+        "id": 1,
+        "title": "Summer Vacation"
+      }
+    },
+    {
+      "id": 4,
+      "contactName": "Bob Smith",
+      "phoneNumber": "111222333",
+      "holiday": {
+        "id": 2,
+        "title": "Winter Retreat"
+      }
+    }
+  ]
+}
